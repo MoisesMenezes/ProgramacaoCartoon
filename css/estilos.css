@@ -1,0 +1,447 @@
+.logo{
+    height: 80px;
+    width: 120px;
+}
+.navbar{
+    background-color:#4c4c4c;
+}
+
+.navbar2{
+    background-color: black;
+    height: 45px;
+}
+.navbar2 form{
+    float: right;
+}
+.navbar2 input{
+    background-color: #4c4c4c;
+    color: white !important;
+    height: 35px;
+    font-family: 'Cartoon';
+    margin: 5px;
+    margin-right: 20px;
+}
+.form-control:focus{
+    background-color: #4c4c4c;
+    border-color: #009ade;
+    box-shadow: none;
+}
+
+.box-day{
+    background-color: #009ade;
+    border-style: solid;
+    border-width: 4px 0px 0px 0px;
+    border-color: #ffea00;
+    margin-top:20px;
+}
+.box-day p{
+    color: white;
+    text-transform: uppercase;
+    padding-top: 7px;
+    font-size: 28px;
+}
+
+/*HORARIOS DAY */
+.horarios-day{
+    width: 100%;
+    margin-top: 20px;
+
+}
+.horarios-day a{
+    padding-top: 20px !important;
+}
+.hover{
+    opacity: 0.5;
+}
+
+.hover:hover{
+    opacity: 1.0;
+    text-decoration: none;
+}
+.hover:active{
+    background-color: black;
+    text-decoration: none;
+}
+
+
+.horarios-day p{
+    color: white;
+    font-size: 29px;
+}
+.horarios-day a{
+    margin: 1.5px;
+
+}
+.box{
+    width: 100%;
+    height: 85px;
+}
+
+.color-A{
+    background-color: #009ade;
+}
+.color-B{
+    background-color: #ec0080;
+}
+.color-C{
+    background-color: #ffea00;
+}
+.color-D{
+    background-color: white;
+}
+
+/*HORARIOS HORA*/
+.horario-hour{  
+    font-size: 25px;
+    margin: 10px 10px 10px 30px;
+    background-color: #ffea00;
+    margin-top: 20px;
+}
+
+
+.horario-hour .caixa-branca{
+    height: 120px;
+    width: 100%;
+    position: relative;
+    margin: 10px 0px 5px 0px;
+}
+
+.horario-hour .titulo1{
+    font-size: 45px;
+    color: white;
+    font-family: 'Cartoon'
+}
+
+.horario-hour .titulo2{
+    font-size: 32px;
+    color: black;
+    font-family: 'Cartoon';
+    transform: rotate(270deg);
+    margin-top:10px;
+}
+.horario-hour .img-box{
+    padding-top:10px;
+    height: 116px;
+    width: 100px;
+}
+
+.arrow{
+    height: 100%;
+    width: 70px;
+    padding-left: 10px; 
+}
+
+.titulo-hour{
+    padding: 15px 0px 0px 40px;
+    font-size:25px;
+}
+
+/* slide desenhos */
+
+
+.desenhos-slide{
+    background-color: #ec0080;
+    border-style: solid;
+    border-width: 0px 0px 5px 0px;
+    border-color: #009ade;
+    margin-top: 15px;
+}
+.borda2{
+    border-style: solid;
+    border-color: #ffea00
+}
+
+.desenhos-slide img{
+    width: 120px;
+    height: 110px;
+    position: relative; 
+}
+.carousel a:link{
+    text-decoration: none;
+    
+}
+
+.carousel a:hover{
+    text-decoration: none;
+    transform: scale(0.9);
+}
+
+
+/* RODAPE */
+
+.footer2 a:link{
+    text-decoration: none;
+}
+.footer2 a:visited{
+    text-decoration: none;
+    color: white;
+}
+.footer2 a:hover{
+    text-decoration: none;
+    color: #ec0080;
+}
+
+.footer1{
+    
+    background-color: #4c4c4c;
+}
+.footer2{
+    background-color:black;
+    color: white;
+    font-size: 15px;
+    font-family: "Cartoon";
+}
+.footer2 p{
+    margin:12px;
+}
+
+.logo2{
+    height: 85px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.jogos{
+    padding-top: 20px;
+    color: white;
+}
+
+@font-face{
+    font-family: 'Cartoon';
+    src: url('../fonts/Cartoon\ Slam.ttf');
+}
+.fonte{
+    font-family: "Cartoon";
+}
+
+/* MODAL PERSONAGEM*/
+
+.close{
+    color:white;
+    font-family: 'Cartoon';
+    background-color: red;
+    margin: 3px 4px 10px 10px;
+    padding-top: 4px;
+    width: 35px;
+    height: 30px;
+    border-radius: 5px;
+    opacity: 1;
+}
+.close:not(:disabled):not(.disabled):focus, .close:not(:disabled):not(.disabled):hover {
+    color: white;
+     text-decoration: none;
+    opacity: 0.9;
+}
+
+#modal-desenho .close{
+    background-color: #009ade;
+    padding-left: 7px;
+}
+
+
+
+.modal-content{
+    background-color: #009ade;
+}
+.modal-body{
+    background-color: #ffea00;
+}
+.modal .week{
+    background-color: white;
+    margin: 3px;
+}
+
+.classificacao{
+    background-color: #009ade;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    font-size: 35px;
+    color: white;
+    height: 60px;
+    margin-left: 40px;
+    align-items: center;
+    padding-right: 60px;
+    margin-top: 38px;
+}
+.modal-desenho{
+    background-color: #ec0080;
+    height: 100px;
+    margin-top: 18px; 
+    justify-items:center;
+    border-radius: 20px;
+}
+.modal-desenho h2{
+    padding: 10px 0px 0px 40px;
+    color: white;
+    font-size: 32px;
+    font-family: 'Cartoon';
+}
+.modal-desenho span{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.jorel-desenho {   
+    height: 135px;
+    background-color: white;   
+    overflow: hidden;  
+    border-style: solid;
+    border-color:#ec0080;
+    border-radius: 80px;
+    border-width: 10px 10px 10px 10px;   
+    justify-content: center;
+    display: flex;
+    position:relative;
+    right: -38px;
+    z-index: 1;
+}
+.jorel-desenho img{ 
+    top: 50%;  
+    left: 50%;  
+    height: 120px;
+    width: 500px;
+    border-radius: 20px;
+}
+.modal-footer p{
+    font-size: 17px;
+    color: #ec0080;
+    font-weight: bold;
+}
+.modal-footer span{
+    color: #ffea00;
+}
+/* END MODAL PERSONAGEM */
+
+/*START MODAL DESENHO */
+
+
+.horario-hour a:link{
+    text-decoration:none; 
+    color: black;
+}
+.horario-hour a:visited{
+    text-decoration: none;
+}
+.horario-hour a:hover{
+    text-decoration: none;
+}
+.caixa-branca:hover{
+    background-color:#f4f0be;
+}
+
+.modal-content .modal2-content{
+    background-color:  #ffea00;
+}
+.modal2-title{
+    background-color: #ec0080;
+}
+.modal-body{
+    background-color: #ffea00;
+}
+
+.text1{
+    background-color: #ec0080;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding: 10px 10px 10px 20px;
+    margin-top: 10px;
+}
+.text2{
+    background-color: #ec0080;
+    font-size:15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding: 10px 10px 10px 20px;
+    margin-top: 10px;
+    
+}
+.modal2-footer{
+    background-color: #ec0080;
+    
+}
+
+.modal-desenho2{
+    background-color:#009ade;
+    height: 100px;
+    margin-top: 10px; 
+    justify-items:center;
+    border-radius: 20px;
+}
+.jorel-desenho2 {   
+    height: 120px;
+    background-color: white;   
+    overflow: hidden;  
+    border-style: solid;
+    border-color:#009ade;
+    border-radius: 120px;
+    border-width: 8px 8px 8px 8px;   
+    justify-content: center;
+    display: flex;
+    position:relative;
+    right: -40px;
+    z-index: 1;
+}
+
+.jorel-desenho2 img{ 
+    top: 50%;  
+    left: 50%;  
+    height: 120px;
+    border-radius: 10px;
+}
+
+.modal-desenho2 h2{
+    padding: 10px  0px 0px 40px;
+    color: white;
+    font-size: 22px;
+    font-family: 'Cartoon';
+}
+.modal-desenho2 span{
+    font-size: 18px;
+}
+.modal-desenho2 p{
+    font-size:17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: none;
+}
+.classificacao2{
+    background-color: #009ade;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+    font-size: 30px;
+    color: white;
+    height: 50px;
+    margin-left: 20px;
+    align-items: center;
+    padding-right: 50px;
+    margin-top: 38px;
+}
+/* CAROUSEL */
+.carousel {
+    width: 1000px;
+    margin: 0 auto;
+}
+.carousel a:hover{
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 959px) {
+    p{
+        font-size: 10px;
+    }
+
+    h2{
+        font-size:11px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    p{
+        font-size: 7px;
+    }
+    h2{
+        font-size: 9px;
+    }
+}
